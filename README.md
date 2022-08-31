@@ -1,3 +1,12 @@
 # arduino_rp2040_json_server
-Controlling the built-in RGB LED with POST requests and JSON responses! Requires the ArduinoJson.h library.
-The library can be downloaded in the Arduino IDE directly or you can get more information from <a href = "https://arduinojson.org/v6/doc/installation/">here</a>.
+
+<p>Controlling stuff with HTTP Requests requests and JSON responses!</p>
+
+<h3>Features:</h3>
+
+<ul>
+	<li>Display your local SSID on successful connection on a I2C OLED display</li>
+	<li>Display client's IP address with the action they performed on the aforementioned display.</li>
+	<li>Make a JSON-encoded response to the client with current state of digital/analog pins.</li>
+	<li>Make stuff happen from anywhere if you properly setup port forwarding/packet destination policies in your local firewall.</li>
+</ul>
