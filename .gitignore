@@ -1,2 +1,1 @@
-#define SECRET_SSID "foo"
-#define SECRET_PASS "bar"
+arduino_secrets.h
